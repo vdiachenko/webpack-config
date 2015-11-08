@@ -1,0 +1,23 @@
+@import '../common/fonts';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	.font(2);
+	background: #cecece;
+}
+
+.title {
+	.font2(2);
+
+	&:before {
+		content: '';
+		display: block;
+		width: 497px;
+		height: 270px;
+		background: url('../../img/webpack.png');
+	}
+}
